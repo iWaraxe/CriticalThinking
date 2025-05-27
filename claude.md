@@ -149,7 +149,7 @@ diff -u <(grep -E "^#{1,6}" lectures/en/lecture-01-ai-detectives.md) \
 ## Comprehensive Localization Guidelines
 
 ### Target Countries and Cultural Context
-The course serves company offices in: Belarus, Lithuania, Poland, Romania, Ukraine, Bulgaria, Moldova, and Georgia. Each translation should reflect local culture while maintaining universal appeal.
+The course serves company offices in: Belarus, Lithuania, Poland, Romania, Ukraine, Bulgaria, Moldova, Georgia, and Mexico. Each translation should reflect local culture while maintaining universal appeal.
 
 ### Core Localization Principles
 
@@ -326,6 +326,35 @@ The course serves company offices in: Belarus, Lithuania, Poland, Romania, Ukrai
 - Tech as economic diversification
 - Regional tech cooperation
 - Innovation in post-Soviet context
+
+#### 🇲🇽 Mexico
+**Cultural Elements:**
+- Mexican tech ecosystem (Clip, Kavak, Bitso)
+- Popular Mexican YouTubers, streamers, and influencers
+- Traditional Mexican culture (alebrije, Día de Muertos, lucha libre) in creative examples
+- Mexican music scene (reggaetón, mariachi fusion, regional Mexican)
+- Local gaming and esports community
+
+**Language Considerations:**
+- Use contemporary Mexican Spanish with natural teen slang
+- Include popular Mexican expressions and modismos
+- Reference Mexican social media platforms and trends
+- Avoid overly formal or Spain Spanish terminology
+
+**Local Context:**
+- Growing fintech and startup ecosystem
+- Digital transformation in education and government
+- STEM education initiatives and opportunities
+- Mexican innovation in Latin American context
+- Digital divide and accessibility considerations
+- Local regulatory environment (INAI, IFT)
+
+**Educational and Cultural References:**
+- Mexican educational system (SEP, preparatoria, universidad)
+- Local universities and tech programs (Tec de Monterrey, UNAM)
+- Mexican scientific achievements and innovators
+- Regional variations and cultural diversity within Mexico
+- Mexican-American tech connections and opportunities
 
 ### Implementation Checklist for Each Localization
 
