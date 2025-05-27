@@ -1,21 +1,22 @@
 # Critical Thinking in the Age of AI
 # Критическое мышление в эпоху ИИ  
 # Критичне мислення в епоху ШІ
+# Pensamiento Crítico en la Era de la IA
 
 <div align="center">
 
-🤖 **Learn to think critically about AI** | **Учись критически мыслить об ИИ** | **Вчись критично мислити про ШІ** 🧠
+🤖 **Learn to think critically about AI** | **Учись критически мыслить об ИИ** | **Вчись критично мислити про ШІ** | **Aprende a pensar críticamente sobre IA** 🧠
 
-[![Course Languages](https://img.shields.io/badge/Languages-EN%20%7C%20RU%20%7C%20UA-blue)](README.md)
+[![Course Languages](https://img.shields.io/badge/Languages-EN%20%7C%20RU%20%7C%20UA%20%7C%20ES-blue)](README.md)
 [![Age Group](https://img.shields.io/badge/Age-12--15-green)](README.md)
 [![Duration](https://img.shields.io/badge/Duration-8%20Lectures-orange)](README.md)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-### 🌐 Choose Your Language / Выберите язык / Оберіть мову
+### 🌐 Choose Your Language / Выберите язык / Оберіть мову / Elige tu idioma
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 🇬🇧 English
 [**Open English Version**](README-en.md)
@@ -23,7 +24,7 @@
 Interactive course teaching teens to outsmart AI, spot fake content, detect bias, and use AI tools responsibly.
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 🇷🇺 Русский
 [**Открыть русскую версию**](README-ru.md)
@@ -31,12 +32,20 @@ Interactive course teaching teens to outsmart AI, spot fake content, detect bias
 Интерактивный курс, обучающий подростков критически мыслить об ИИ, распознавать фейки и использовать ИИ ответственно.
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 
 ### 🇺🇦 Українська
 [**Відкрити українську версію**](README-ua.md)
 
 Інтерактивний курс, що навчає підлітків критично мислити про ШІ, розпізнавати фейки та використовувати ШІ відповідально.
+
+</td>
+<td align="center" width="25%">
+
+### 🇪🇸 Español
+[**Abrir versión en español**](README-es.md)
+
+Curso interactivo que enseña a adolescentes a pensar críticamente sobre IA, detectar contenido falso y usar IA responsablemente.
 
 </td>
 </tr>
@@ -52,8 +61,8 @@ Interactive course teaching teens to outsmart AI, spot fake content, detect bias
 
 ### 📚 Course Resources
 
-- **📖 Detailed Syllabus**: [English](course-overview/syllabus.md) | [Русский](course-overview/syllabus-ru.md) | [Українська](course-overview/syllabus-ua.md)
-- **📂 Course Materials**: Available in `/lectures/en/`, `/lectures/ru/`, `/lectures/ua/`
+- **📖 Detailed Syllabus**: [English](course-overview/syllabus.md) | [Русский](course-overview/syllabus-ru.md) | [Українська](course-overview/syllabus-ua.md) | [Español](course-overview/syllabus-es.md)
+- **📂 Course Materials**: Available in `/lectures/en/`, `/lectures/ru/`, `/lectures/ua/`, `/lectures/es/`
 - **🛠️ Development Guide**: [CLAUDE.md](CLAUDE.md)
 
 ### 🚀 Quick Start
@@ -69,6 +78,7 @@ cd critical-thinking-ai-course
 # English: lectures/en/
 # Russian: lectures/ru/
 # Ukrainian: lectures/ua/
+# Spanish: lectures/es/
 ```
 
 ### 🤝 Contributing
