@@ -218,23 +218,28 @@ The course serves company offices in: Belarus, Lithuania, Poland, Romania, Ukrai
 
 ### Country-Specific Localization Guidance
 
-#### 🇺🇦 Ukraine
+#### 🇺🇦 Ukraine (Lviv Office)
 **Cultural Elements:**
-- Ukrainian tech sector (Ajax Systems, Grammarly)
-- Popular Ukrainian YouTubers and influencers
-- Ukrainian traditional elements (vyshyvanka, bandura) in creative examples
-- References to Ukrainian resilience and innovation
+- Ukrainian tech sector with Lviv focus (SoftServe, EPAM Lviv, Intellias)
+- Popular Ukrainian YouTubers and regional Lviv influencers
+- Ukrainian traditional elements (vyshyvanka, bandura) mixed with Galician culture
+- References to Ukrainian resilience and Western Ukrainian innovation
+- Lviv-specific landmarks (Rynok Square, Freedom Avenue, Opera Theatre)
+- Local educational institutions (Lviv Polytechnic, LNU named after Ivan Franko)
 
 **Language Considerations:**
-- Use contemporary Ukrainian, not Soviet-era terminology
-- Include modern Ukrainian slang popular with teens
-- Reference Ukrainian social media platforms and trends
+- Use contemporary Ukrainian with subtle Galician influence
+- Include modern Ukrainian slang popular with Lviv teens
+- Reference local Telegram channels and social media groups
+- Mention local media outlets (Zaxid.net, Varta1, LvivNow)
 
 **Local Context:**
-- Digital literacy as empowerment tool
+- Digital literacy as empowerment tool during wartime
 - Importance of fact-checking during information warfare
-- Ukrainian AI and tech initiatives
-- Local cybersecurity awareness
+- Lviv as Western Ukrainian tech hub
+- Local cybersecurity awareness and European integration
+- Coffee culture and startup ecosystem references
+- Historical context of Lviv as cultural/educational center
 
 #### 🇧🇾 Belarus
 **Cultural Elements:**
