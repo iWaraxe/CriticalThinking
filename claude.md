@@ -129,12 +129,15 @@ When English file is updated:
 4. Preserve structure and seq numbers
 5. Keep section headers (SCRIPT, VISUAL, etc.) in English
 
-### 3. Translation Rules
+### 3. Translation and Localization Rules
 - Maintain exact slide structure
 - Translate slide titles but keep [seq:XXX]
-- Adapt cultural references appropriately
+- **CRITICAL**: Apply deep cultural localization (see Localization Guidelines below)
 - Ensure examples are relevant to target audience
 - Preserve all formatting and links
+- Replace generic examples with locally relevant ones
+- Use appropriate local slang and expressions for teenagers
+- Reference local institutions, celebrities, and cultural phenomena
 
 ### 4. Validation
 ```bash
@@ -142,6 +145,229 @@ When English file is updated:
 diff -u <(grep -E "^#{1,6}" lectures/en/lecture-01-ai-detectives.md) \
         <(grep -E "^#{1,6}" lectures/ru/lecture-01-ai-detectives-ru.md)
 ```
+
+## Comprehensive Localization Guidelines
+
+### Target Countries and Cultural Context
+The course serves company offices in: Belarus, Lithuania, Poland, Romania, Ukraine, Bulgaria, Moldova, and Georgia. Each translation should reflect local culture while maintaining universal appeal.
+
+### Core Localization Principles
+
+#### 1. Cultural References and Examples
+**Replace generic examples with locally relevant ones:**
+
+**Technology Examples:**
+- Popular local apps and platforms
+- Local tech companies and startups
+- Regional social media trends
+- Country-specific digital services
+
+**Pop Culture References:**
+- Local musicians, YouTubers, influencers popular with teens
+- National TV shows, movies, memes
+- Local gaming communities and streamers
+- Regional sports heroes and celebrities
+
+**Historical and Educational Context:**
+- Local historical events for timeline examples
+- National heroes and figures for inspiration
+- Local educational system references
+- Regional scientific achievements
+
+#### 2. Institutional and Authority References
+
+**Government and Official Sources:**
+- National statistical offices (.gov domains)
+- Educational ministries and agencies
+- Local universities and research institutions
+- National tech/digital initiatives
+
+**Verification Sources:**
+- Trusted local news outlets
+- Fact-checking organizations in local language
+- Regional academic institutions
+- Local tech community resources
+
+#### 3. Language and Communication Style
+
+**Age-Appropriate Local Slang:**
+- Research current teenage slang and expressions
+- Use natural, conversational tone for the region
+- Include popular local expressions and idioms
+- Avoid outdated or formal language
+
+**Cultural Communication Patterns:**
+- Adapt humor style to local preferences
+- Consider cultural attitudes toward authority/questioning
+- Respect local educational traditions while encouraging critical thinking
+- Use familiar metaphors and analogies
+
+#### 4. Economic and Social Context
+
+**Local Issues and Challenges:**
+- Regional digital divide considerations
+- Local privacy/surveillance concerns
+- Economic realities (free vs paid tools)
+- Regional internet infrastructure limitations
+
+**Relevant Local Problems:**
+- Country-specific misinformation challenges
+- Local bias examples in AI systems
+- Regional ethical considerations
+- Local regulatory environment
+
+### Country-Specific Localization Guidance
+
+#### 🇺🇦 Ukraine
+**Cultural Elements:**
+- Ukrainian tech sector (Ajax Systems, Grammarly)
+- Popular Ukrainian YouTubers and influencers
+- Ukrainian traditional elements (vyshyvanka, bandura) in creative examples
+- References to Ukrainian resilience and innovation
+
+**Language Considerations:**
+- Use contemporary Ukrainian, not Soviet-era terminology
+- Include modern Ukrainian slang popular with teens
+- Reference Ukrainian social media platforms and trends
+
+**Local Context:**
+- Digital literacy as empowerment tool
+- Importance of fact-checking during information warfare
+- Ukrainian AI and tech initiatives
+- Local cybersecurity awareness
+
+#### 🇧🇾 Belarus
+**Cultural Elements:**
+- Belarusian IT sector (Epam, Wargaming)
+- Local tech community and High Tech Park
+- Traditional Belarusian culture mixed with modern tech
+- Regional gaming and esports scene
+
+**Local Context:**
+- Strong IT education tradition
+- Tech as economic opportunity
+- Digital privacy and security awareness
+- Innovation within constraints
+
+#### 🇱🇹 Lithuania
+**Cultural Elements:**
+- Baltic tech scene and Fintech sector
+- Lithuanian gaming industry (Nordcurrent)
+- Baltic cooperation and European integration
+- Local startup ecosystem
+
+**Local Context:**
+- Digital government initiatives
+- European GDPR framework
+- Baltic cybersecurity cooperation
+- Innovation in small nations
+
+#### 🇵🇱 Poland
+**Cultural Elements:**
+- Polish gaming industry (CD Projekt, Techland)
+- Popular Polish YouTubers and influencers
+- Polish tech companies and startups
+- Traditional Polish culture in digital age
+
+**Local Context:**
+- Strong gaming culture among teens
+- European digital rights framework
+- Polish digital transformation initiatives
+- Regional tech leadership
+
+#### 🇷🇴 Romania
+**Cultural Elements:**
+- Romanian tech sector and outsourcing industry
+- Local gaming and esports community
+- Romanian tech education programs
+- Bucharest tech scene
+
+**Local Context:**
+- Growing tech sector opportunities
+- European digital framework
+- Regional digital transformation
+- Innovation hubs and tech parks
+
+#### 🇧🇬 Bulgaria
+**Cultural Elements:**
+- Bulgarian tech and outsourcing sector
+- Local gaming and software development
+- Sofia tech ecosystem
+- Bulgarian contributions to global tech
+
+**Local Context:**
+- Tech education and career opportunities
+- European digital rights
+- Regional innovation initiatives
+- Balkan tech cooperation
+
+#### 🇲🇩 Moldova
+**Cultural Elements:**
+- Moldovan tech sector development
+- Regional tech education initiatives
+- Chisinau tech community
+- Cross-border tech cooperation
+
+**Local Context:**
+- Emerging tech opportunities
+- Digital transformation goals
+- Tech as development pathway
+- Regional collaboration
+
+#### 🇬🇪 Georgia
+**Cultural Elements:**
+- Georgian tech sector and innovation
+- Tbilisi tech scene
+- Georgian startup ecosystem
+- Traditional culture meets innovation
+
+**Local Context:**
+- Government digitalization efforts
+- Tech as economic diversification
+- Regional tech cooperation
+- Innovation in post-Soviet context
+
+### Implementation Checklist for Each Localization
+
+#### Content Adaptation:
+- [ ] Replace 5+ generic examples with local ones per lecture
+- [ ] Include 3+ local cultural references per lecture
+- [ ] Reference local institutions and authorities
+- [ ] Use age-appropriate local slang and expressions
+- [ ] Adapt humor and communication style
+
+#### Technical Adaptation:
+- [ ] Verify AI tools availability/accessibility in region
+- [ ] Provide local alternatives where needed
+- [ ] Reference local regulations and privacy laws
+- [ ] Include local tech career pathways
+
+#### Cultural Sensitivity:
+- [ ] Review content with native speaker familiar with teen culture
+- [ ] Ensure examples respect local values and traditions
+- [ ] Avoid potential political sensitivities
+- [ ] Balance global perspective with local relevance
+
+#### Quality Assurance:
+- [ ] Test all local examples and references for accuracy
+- [ ] Verify local institutions and websites are current
+- [ ] Confirm cultural references are appropriate and current
+- [ ] Validate language is natural and engaging for teens
+
+### Localization Resources by Country
+
+#### Research Sources:
+- Local teenage social media trends and influencers
+- National education ministry websites
+- Local tech industry reports and news
+- Regional youth culture studies and surveys
+- Local fact-checking and media literacy organizations
+
+#### Collaboration Partners:
+- Local tech communities and educators
+- Regional AI and digital literacy initiatives
+- Youth organizations and programs
+- Local tech companies and startups
 
 ## Content Guidelines
 
