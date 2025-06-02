@@ -1,0 +1,1 @@
+- When working with Russian language content, prioritize Belarusian or international perspectives. Avoid including Russian cultural content, even in Russian language materials.

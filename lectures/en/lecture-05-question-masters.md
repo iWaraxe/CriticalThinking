@@ -209,15 +209,60 @@ Here's a secret: prompt engineering isn't about getting it perfect the first tim
 
 ---
 
-## 5.9. Fact-Checking and Verification
+## 5.9. Advanced Research Tools
+
+### [seq:085] When Basic AI Isn't Enough
+
+###### SCRIPT
+Sometimes you need more than just conversation – you need serious research power! 🔬 Tools like Perplexity Labs just launched game-changing features that let you build trading strategies, create interactive dashboards, and even develop mini web apps, all through conversation! It's like having a research assistant, data scientist, and web developer all in one. But remember – even these powerful tools need great prompts and critical thinking. They can help you analyze F1 race data or research longevity studies, but YOU still need to verify, question, and interpret what they find!
+
+###### VISUAL
+- Research tool comparison: Basic AI vs Specialized tools
+- Perplexity Labs examples: Trading dashboard, F1 analysis, research tools
+- "Power Tools" vs "Basic Tools" analogy
+- Student as research director with AI assistants
+- Complex task breakdown: Research → Analysis → Visualization
+
+###### NOTES
+- Perplexity Labs launched with app-building capabilities (May 2025)
+- Can create functional dashboards and tools through conversation
+- Useful for school projects requiring data analysis
+- Still requires human oversight and verification
+- Bridges gap between AI chat and professional research tools
+
+###### DEMONSTRATION
+"Research Tool Showcase":
+1. Show basic AI research vs Perplexity Labs research
+2. Example: "Create a dashboard showing climate change data"
+3. Compare depth, sources, and interactivity
+4. Discuss when to use advanced vs basic tools
+
+###### ACTIVITY
+"Research Challenge":
+1. Groups get complex research questions
+2. Try solving with basic AI first
+3. Then use advanced research tools
+4. Compare results and discuss trade-offs
+5. Present findings using best approach
+
+###### LINKS
+- Perplexity Labs examples and tutorials
+- Research tool comparison matrix
+- Data verification strategies for complex projects
+- Academic integrity guidelines for AI research tools
+
+---
+
+## 5.10. Fact-Checking and Verification
 
 ### [seq:090] Trust but Verify
 
 ###### SCRIPT
-Even with perfect prompts, remember our earlier lessons – AI can still make mistakes! Part of being a Question Master is knowing when and how to verify. Ask AI to cite sources, cross-check important facts, and use multiple AIs for comparison. Great prompts reduce errors but don't eliminate them. Stay sharp, detectives!
+Even with perfect prompts, remember our earlier lessons – AI can still make mistakes! Part of being a Question Master is knowing when and how to verify. Ask AI to cite sources, cross-check important facts, and use multiple AIs for comparison. Here's a recent reality check: Some AI benchmarks that make models look super smart might be "contaminated" – meaning the AI has seen those exact problems during training! It's like a student taking a test with questions they've already practiced. Great prompts reduce errors but don't eliminate them. Stay sharp, detectives!
 
 ###### VISUAL
 - Verification workflow diagram
+- NEW: "Benchmark contamination" illustration showing AI "studying for the test"
 - Fact-checking checklist integration
 - Multiple AI comparison setup
 - "Question Master + Detective" hybrid badge
@@ -226,17 +271,22 @@ Even with perfect prompts, remember our earlier lessons – AI can still make mi
 - Good prompts reduce but don't eliminate errors
 - Build verification into your workflow
 - Critical thinking always required
+- NEW: Benchmark contamination concerns (2025): Math/coding benchmarks may be oversaturated
+- Prompt sensitivity: Same AI can give different answers to slight prompt changes
+- Real-world performance may differ from impressive benchmark scores
 
 ###### ACTIVITY
-"Prompt and Verify":
+"Prompt and Verify - Benchmark Reality Check":
 1. Create prompts requesting factual information
 2. Ask AI to include sources
 3. Verify top claims independently
-4. Discuss reliability strategies
+4. NEW: Test same math problem with slightly different wording
+5. Compare benchmark claims to your actual experience
+6. Discuss reliability strategies and when benchmarks might mislead
 
 ---
 
-## 5.10. Homework & Next Time
+## 5.11. Homework & Next Time
 
 ### [seq:100] Your Prompt Engineering Quest
 
@@ -266,6 +316,48 @@ Your quest this week: Master the art of prompting! Practice with different style
 - CTFC framework cheat sheet
 - Example prompt libraries
 - Advanced prompting techniques
+
+---
+
+## ARCHIVE
+
+###### ARCHIVE
+
+**UPDATED 2025-06-02:** Enhanced with benchmark contamination and evaluation concerns
+
+**Rationale:** Added current critical thinking skills about AI evaluation and benchmark limitations. Recent discussions in AI community highlight concerns about benchmark contamination and oversaturated math/coding benchmarks, where models may perform well on tests but struggle with real-world variations. This teaches students to question not just AI outputs, but also the metrics used to evaluate AI performance.
+
+**Updated Content:**
+- Enhanced section [seq:090] with benchmark contamination concepts
+- Added "studying for the test" analogy for benchmark contamination
+- Included prompt sensitivity awareness
+- Enhanced ACTIVITY to include benchmark reality checking
+- Added visual element for benchmark contamination illustration
+
+**Educational Value:**
+- Teaches students to question evaluation metrics, not just answers
+- Develops meta-critical thinking about AI assessment
+- Connects to real 2025 AI research discussions
+- Prepares students to evaluate claims about AI capabilities
+- Shows that impressive numbers don't always equal real-world performance
+
+**UPDATED 2025-06-02:** Added Perplexity Labs advanced research capabilities
+
+**Rationale:** Added section [seq:085] covering Perplexity Labs and advanced AI research tools. These represent major 2025 advancement in AI capabilities beyond basic conversation - students can now build interactive dashboards, trading strategies, and web apps through AI conversation. Critical to teach both capabilities and continued need for human oversight.
+
+**New Content Added:**
+- Section 5.9: "Advanced Research Tools" with Perplexity Labs focus
+- Examples of complex AI-generated applications and tools
+- Comparison between basic AI chat and specialized research tools
+- Activities for testing advanced vs basic AI capabilities
+- Links to current Perplexity Labs examples and tutorials
+
+**Educational Value of Addition:**
+- Shows students cutting-edge AI capabilities available today
+- Maintains critical thinking emphasis even with powerful tools
+- Prepares students for AI tools beyond simple chatbots
+- Demonstrates democratization of advanced data analysis and web development
+- Connects to real-world applications students might encounter
 
 ---
 

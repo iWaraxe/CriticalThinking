@@ -128,7 +128,49 @@ Ready to make some noise? AI can generate melodies, suggest chord progressions, 
 
 ---
 
-## 7.6. The Iteration Game
+## 7.6. Video Creation Revolution
+
+### [seq:055] When AI Movies Meet Human Stories
+
+###### SCRIPT
+Ready for something mind-blowing? AI can now create entire videos from text descriptions! The competition is fierce – Google's Veo 3 just crushed OpenAI's Sora in video quality, creating incredibly realistic videos from simple prompts. Imagine typing "a cat playing piano in a coffee shop" and getting a Hollywood-quality video! But here's the thing: AI can make the visuals, but it can't write the story that matters. It can't know what will make people laugh, cry, or care. You're still the director with the vision!
+
+###### VISUAL
+- Split screen: Veo 3 vs Sora video examples
+- Text prompt transforming into video
+- Competition leaderboard showing quality improvements
+- Human as director with AI as camera crew
+- Video creation workflow diagram
+
+###### NOTES
+- Google Veo 3 released May 2025, reportedly superior to Sora
+- Video generation now possible for students (democratization of filmmaking)
+- Google's YouTube data advantage in training video models
+- Quality improving rapidly but storytelling remains human domain
+
+###### DEMONSTRATION
+"Video Prompt Battle":
+1. Students write video prompts
+2. Generate videos with AI tools
+3. Compare different AI video generators
+4. Discuss: What makes a prompt produce good video?
+
+###### ACTIVITY
+"Micro-Movie Challenge":
+1. Create 30-second AI-generated video
+2. Must tell a complete story
+3. Compare technical quality vs narrative quality
+4. Vote on best story (not just best visuals)
+
+###### LINKS
+- Google Veo 3 examples and comparisons
+- OpenAI Sora technical documentation
+- Video generation prompt best practices
+- Ethical considerations for AI-generated video content
+
+---
+
+## 7.7. The Iteration Game
 
 ### [seq:060] Making It Better, Together
 
@@ -155,7 +197,7 @@ Here's the secret sauce of AI creativity: iteration! Generate, evaluate, refine,
 
 ---
 
-## 7.7. Attribution and Originality
+## 7.8. Attribution and Originality
 
 ### [seq:070] Giving Credit Where It's Due
 
@@ -182,7 +224,7 @@ Using AI in your creative work isn't cheating – IF you're honest about it! Alw
 
 ---
 
-## 7.8. Finding Your Creative Voice
+## 7.9. Finding Your Creative Voice
 
 ### [seq:080] AI Can't Replace Your Perspective
 
@@ -208,7 +250,7 @@ Deep creative questions:
 
 ---
 
-## 7.9. Creative Ethics in Action
+## 7.10. Creative Ethics in Action
 
 ### [seq:090] Creating Responsibly
 
@@ -235,7 +277,7 @@ With great creative power comes great responsibility! Using AI to create means t
 
 ---
 
-## 7.10. Homework & Final Showcase
+## 7.11. Homework & Final Showcase
 
 ### [seq:100] Your Creative Challenge
 
@@ -254,7 +296,7 @@ Your ultimate challenge: Create something amazing that shows everything you've l
 - Build excitement for showcase
 
 ### Homework Assignment:
-1. Choose creative project: Story, Art, Music, or Mixed Media
+1. Choose creative project: Story, Art, Music, Video, or Mixed Media
 2. Document your process (human idea → AI help → human refinement)
 3. Create attribution statement
 4. Prepare 3-minute presentation
@@ -265,6 +307,39 @@ Your ultimate challenge: Create something amazing that shows everything you've l
 - Free AI creative tools list
 - Attribution guidelines
 - Showcase presentation tips
+
+---
+
+## ARCHIVE
+
+###### ARCHIVE
+
+**UPDATED 2025-06-02:** Added video generation capabilities and competition dynamics
+
+**Rationale:** Added section [seq:055] "Video Creation Revolution" to reflect major breakthrough in AI video generation. Google Veo 3 vs OpenAI Sora competition represents significant democratization of video creation for students. Important to show latest creative capabilities while maintaining focus on human storytelling and critical evaluation.
+
+**New Content Added:**
+- Section 7.6: "Video Creation Revolution" covering Veo 3 vs Sora
+- Video generation examples and prompt strategies
+- Emphasis on technical capability vs narrative quality
+- Activities for creating and evaluating AI-generated videos
+- Updated homework to include video as creative option
+
+**Updated Numbering:**
+- Renumbered sections 7.7-7.11 (previously 7.6-7.10) to accommodate new content
+- Maintained sequence numbers for existing content
+
+**Educational Value:**
+- Introduces students to cutting-edge video AI capabilities
+- Emphasizes human creativity and storytelling over technical visuals
+- Teaches evaluation of complex AI outputs (video vs text)
+- Connects to real competition between major AI companies
+- Prepares students for rapidly evolving creative AI landscape
+
+**Technical Context:**
+- Google Veo 3 reported superior to Sora (May 2025)
+- YouTube data advantage in video model training
+- Democratization of high-quality video creation for education
 
 ---
 

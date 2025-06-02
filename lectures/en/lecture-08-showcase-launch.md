@@ -106,10 +106,12 @@ Congratulations! You've earned your Critical Thinking Toolkit – but what's in 
 ### [seq:050] What's Coming Next
 
 ###### SCRIPT
-AI is evolving at warp speed! By next year, there will be new tools, new capabilities, and new challenges we can't even imagine. But guess what? You're ready! The critical thinking skills you've built work on ANY AI, current or future. While others panic about AI changes, you'll adapt, question, and thrive. You're future-proof!
+AI is evolving at warp speed! By next year, there will be new tools, new capabilities, and new challenges we can't even imagine. Here's something happening RIGHT NOW: China has taken the lead in open AI development! While American companies often keep their best AI secret, Chinese companies like DeepSeek are sharing powerful models freely with the world. But here's something even wilder – scientists just created the "Darwin Gödel Machine," an AI that can rewrite its own code to get better! It improved from 20% to 50% success on coding tasks just by modifying itself. Imagine AI that doesn't just learn from data, but actually changes how it thinks! This means innovation is accelerating globally, and competition is driving better AI for everyone. But guess what? You're ready! The critical thinking skills you've built work on ANY AI, from ANY country, current or future – even self-improving ones. While others panic about AI changes, you'll adapt, question, and thrive. You're future-proof!
 
 ###### VISUAL
 - AI evolution timeline into future
+- NEW: Global AI competition map (China vs US vs EU)
+- NEW: Self-improving AI loop diagram (Darwin Gödel Machine)
 - "Mystery AI" boxes for unknown tools
 - Students surfing the wave of change
 - Adaptability skill highlighted
@@ -118,12 +120,22 @@ AI is evolving at warp speed! By next year, there will be new tools, new capabil
 - Change is constant in AI
 - Critical thinking is timeless
 - Excitement, not fear about future
+- NEW: China leading in open weights (DeepSeek R1-0528 breakthrough, 2025)
+- NEW: Darwin Gödel Machine self-improvement (May 2025): 20%→50% on SWE-bench
+- Self-modifying AI represents new frontier beyond traditional training
+- Geopolitical competition accelerating AI development
+- Open vs closed development creating different innovation paths
 
 ###### REFLECTION
 Future visioning:
 - What AI tools do you hope to see?
 - What problems could AI help solve?
 - What will you always want humans to do?
+- NEW: How might global AI competition affect you personally?
+- NEW: If AI can improve itself, what limits should we set?
+- Should AI development be more open or more controlled?
+- What role will your generation play in shaping AI's global future?
+- How do we maintain human oversight of self-improving AI?
 
 ---
 
@@ -240,7 +252,7 @@ This isn't goodbye – it's see you later! Here are resources to continue your j
 ### [seq:100] The Beginning of Everything
 
 ###### SCRIPT
-This is it – your launch moment! You came in curious and leave empowered. You've got the skills, the knowledge, and most importantly, the critical thinking mindset to thrive in the AI age. Remember: AI is a powerful tool, but YOU are the one with wisdom, creativity, and heart. Now go forth and shape the future – it's waiting for critical thinkers like you!
+This is it – your launch moment! But I need to be real with you about the world you're entering. 🚨 This week, the CEO of Anthropic (the company behind Claude) made headlines warning that AI could eliminate 50% of entry-level white-collar jobs in the next 1-5 years. That's YOUR generation entering the job market! But here's why this course matters more than ever: while others panic, YOU have the critical thinking superpowers to adapt, verify, and thrive. You understand AI deeply, you can spot its failures, and you know how to use it responsibly. You're not just prepared for the AI future – you're positioned to LEAD it. The world needs people who can think critically about AI, and that's exactly what you've become! 🚀
 
 ###### VISUAL
 - Rocket launch sequence
@@ -249,9 +261,54 @@ This is it – your launch moment! You came in curious and leave empowered. You'
 - "The Future is Yours" banner
 
 ###### NOTES
-- Emotional closure important
-- Individual recognition moment
-- Inspire continued engagement
+**🚨 Current Reality (May 2025):**
+- Anthropic CEO Dario Amodei: 50% of entry-level jobs at risk in 1-5 years
+- Students entering job market during massive AI disruption
+- Need honest preparation, not false comfort
+- Critical thinking skills more valuable than ever
+
+**💡 Empowerment Strategy:**
+- Position them as prepared leaders, not victims
+- Their AI literacy is a competitive advantage
+- Critical thinking = future-proof skill
+- They can shape AI's development, not just react to it
+
+**🎯 Key Messages:**
+- "While others panic, you're prepared"
+- "You understand AI better than most adults"
+- "Your generation will define how AI is used"
+- "Critical thinking beats any algorithm"
+
+**🔍 Discussion Prompts:**
+- "How do you feel about being the first generation to grow up with AI?"
+- "What jobs do you think will be safe from automation?"
+- "How can critical thinking help you adapt to change?"
+
+###### LINKS
+- Axios article: Dario Amodei on AI job displacement warnings
+- Industry analysis: 42% of companies abandoning AI projects (The Economist)
+- Career preparation: Jobs that require critical thinking skills
+- Future planning: How to stay adaptable in the AI economy
+
+###### ARCHIVE
+**UPDATED 2025-06-02:** Enhanced with geopolitical AI competition trends
+
+**Added Content:**
+- Global AI competition dynamics (China vs US vs EU) in section [seq:050]
+- DeepSeek R1-0528 as example of China's open weights leadership
+- Enhanced reflection questions about global AI development
+- Visual elements showing geopolitical AI landscape
+
+**Rationale for Geopolitical Addition:** Students need to understand that AI development is now a global competition affecting their future. China's emergence as leader in open AI development (through DeepSeek and others) represents major shift from US/EU dominance. This provides context for how innovation accelerates through competition and different approaches (open vs closed development).
+
+**REMOVED 2025-05-28:** Overly optimistic future messaging replaced with realistic preparation
+
+**Rationale:** Original script was overly optimistic given current industry warnings about massive job displacement. Students deserve honest preparation for the challenging economic reality they're entering. Updated content balances realism with empowerment.
+
+**Archived Content:**
+- "The future is bright because you're in it" (overly optimistic)
+- Generic "shape the future" messaging without context
+- Lack of acknowledgment of economic disruption ahead
 
 ###### ACTIVITY
 "Launch Ceremony":
@@ -261,10 +318,12 @@ This is it – your launch moment! You came in curious and leave empowered. You'
 4. Group photo with certificates
 
 ### Final Thoughts:
-- You're ready for whatever AI brings
-- Your voice matters in shaping AI's future
+- You're not just ready for AI's impact – you're ahead of it
+- While job markets change, critical thinkers always adapt
+- Your voice matters in shaping how AI develops
+- You have skills most adults don't have
 - Stay curious, stay critical, stay creative
-- The world needs thinkers like you!
+- The world needs thinkers like you to guide the AI revolution!
 
 ### Keep Learning:
 - Join our alumni community

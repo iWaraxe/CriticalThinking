@@ -180,6 +180,42 @@ AI is incredibly fast – it can write an essay in seconds that would take you a
 
 ---
 
+## 2.7.5. The Reasoning Revolution
+
+### [seq:075] When AI Learns to "Think Out Loud"
+
+###### SCRIPT
+Plot twist: Some newer AIs are learning to "think out loud" before answering! 🧠✨ Models like DeepSeek-R1-0528 use something called "chain-of-thought reasoning" – they show their work like you do in math class. Instead of jumping straight to an answer, they break down problems step by step. It's like watching AI's thought process in slow motion! This helps them get harder questions right, especially in math and coding. But remember – they're still pattern matching, just with more elaborate patterns!
+
+###### VISUAL
+- Split screen: "Old AI" (instant answer) vs "New AI" (shows thinking steps)
+- Thought bubble chain showing reasoning process
+- Math problem example with step-by-step solving
+- Clock showing "thinking time" vs "instant response"
+- Code example: DeepSeek showing work vs other AI just giving answer
+
+###### NOTES
+- Chain-of-thought reasoning is a major 2024-2025 breakthrough
+- DeepSeek R1-0528 uses ~23K tokens for complex problems (vs 12K in previous version)
+- Distillation breakthrough: 8B models can now match 235B models through better reasoning
+- Still pattern matching, just more sophisticated patterns
+- Cost-effective: Better reasoning at lower cost than closed models
+
+###### DEMONSTRATION
+"Reasoning Comparison" live test:
+1. Give complex math problem to regular AI vs reasoning-enabled AI
+2. Show how DeepSeek R1-0528 "thinks through" the problem
+3. Compare accuracy and explanation quality
+4. Discuss: Does showing work always mean better answers?
+
+###### LINKS
+- DeepSeek R1-0528 technical report and benchmarks
+- Examples of chain-of-thought vs direct answering
+- AIME 2024 benchmark results (87.5% accuracy)
+- Cost comparison: DeepSeek vs closed models
+
+---
+
 ## 2.8. The Confidence Game
 
 ### [seq:080] Why AI Always Sounds So Sure
@@ -249,7 +285,10 @@ Your mission this week: Become an AI behavior detective! Test different AIs with
 
 ###### NOTES
 - Homework helps reinforce pattern recognition
-- Encourage testing multiple AIs (ChatGPT, Claude, Gemini)
+- Encourage testing multiple AIs (ChatGPT o3, Claude 4 Sonnet, Gemini 2.5 Pro, DeepSeek R1-0528)
+- Note: DeepSeek R1-0528 (May 2025) shows enhanced reasoning with chain-of-thought thinking
+- Recent breakthrough: DeepSeek's 8B model matches much larger models through distillation
+- Compare reasoning styles: DeepSeek thinks longer, shows more work, costs less than closed models
 - Remind about responsible AI use
 
 ### Homework Assignment:
@@ -263,6 +302,26 @@ Your mission this week: Become an AI behavior detective! Test different AIs with
 - How AI Works (simplified): [Link to resources]
 - Hallucination examples: [Link to compilation]
 - AI testing playground: [Safe environment links]
+
+---
+
+## ARCHIVE
+
+###### ARCHIVE
+
+**UPDATED 2025-06-02:** Enhanced with DeepSeek-R1-0528 reasoning capabilities
+
+**Rationale:** Added section 2.7.5 "The Reasoning Revolution" to reflect major 2024-2025 breakthrough in AI reasoning capabilities. DeepSeek-R1-0528 represents significant advancement in chain-of-thought reasoning, achieving 87.5% on AIME 2024 and enabling 8B models to match 235B models through distillation. This is directly relevant to students understanding current AI capabilities.
+
+**Updated Content:**
+- New section [seq:075] on chain-of-thought reasoning
+- Updated homework notes with current model names and capabilities  
+- Added cost-effectiveness discussion (DeepSeek vs closed models)
+- Included recent benchmarks and technical achievements
+
+**Archived Content:**
+- Previous homework notes mentioning "Claude 4 is currently leading in coding benchmarks" → replaced with more nuanced comparison
+- Outdated model version references (ChatGPT 4o → o3, DeepSeek R1 → R1-0528)
 
 ---
 

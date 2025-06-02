@@ -25,25 +25,29 @@ Welcome back, detectives! We've learned how AI thinks and discovered its biases.
 ### [seq:020] When AI Goes Hilariously Wrong
 
 ###### SCRIPT
-Let's start with the fun stuff – AI fails that make us laugh! Like when AI told someone to put glue on pizza to keep cheese from sliding off, or when it suggested using gasoline to cook spaghetti faster. These errors are funny because they're so obviously wrong. But they show us something important: AI doesn't understand common sense!
+Let's start with the fun stuff – AI fails that make us laugh! Like when AI told someone to put glue on pizza to keep cheese from sliding off, or when it suggested using gasoline to cook spaghetti faster. But here's a newer problem: Sometimes you think you're talking to one AI, but you're actually talking to a completely different one! Tools like Ollama have been caught calling a model "DeepSeek R1" when it's actually running a totally different model called "Qwen distill 8B." It's like ordering a pizza and getting tacos – confusing and potentially frustrating!
 
 ###### VISUAL
 - Gallery of funny AI fails with reactions
 - Screenshot examples of absurd suggestions
+- NEW: Model name confusion examples (Ollama interface showing misleading names)
 - "Common Sense: 0, Confidence: 100" meter
-- Laugh track visualization
+- Bait-and-switch visualization
 
 ###### NOTES
 - These examples are real and documented
 - Humor helps students remember the lesson
 - Bridge from funny to "why this matters"
+- NEW: Model naming crisis in 2025 with Ollama breaking open-source standards
+- Users getting different AI than expected affects benchmarks and trust
 
 ###### ACTIVITY
-"AI Fail Collection":
+"AI Fail Collection Enhanced":
 1. Students share funny AI errors they've seen
-2. Vote on "Most Ridiculous Fail"
-3. Analyze why AI made each mistake
-4. Create class "Hall of Fame" display
+2. NEW: Check what model they're actually using vs what the interface claims
+3. Vote on "Most Ridiculous Fail" and "Most Confusing Model Name"
+4. Analyze why AI made each mistake
+5. Create class "Hall of Fame" display
 
 ---
 
@@ -133,25 +137,31 @@ Remember how AI learns from the internet? Well, the internet has lots of false i
 ### [seq:060] Why AI Never Says "I Don't Know"
 
 ###### SCRIPT
-Here's a huge problem – AI almost never admits when it doesn't know something. Ask it about a made-up book, and it'll write you a summary! Ask about a fake historical event, and it'll give you dates and details. This overconfidence is dangerous because it makes errors harder to spot. It's like a friend who gives directions even when they're totally lost!
+Here's a huge problem – AI almost never admits when it doesn't know something. Ask it about a made-up book, and it'll write you a summary! Ask about a fake historical event, and it'll give you dates and details. But there's an even weirder problem: Some AI models completely ignore their instructions! DeepSeek R1, for example, struggles with "system prompts" – the behind-the-scenes instructions that tell it how to behave. It's like a student who confidently gives wrong answers AND doesn't follow the assignment instructions!
 
 ###### VISUAL
 - Confidence meter stuck at maximum
 - Examples of AI explaining nonexistent things
+- NEW: System prompt failures illustration
 - "I don't know" button that's never pressed
 - Comparison with human uncertainty
+- Instructions being ignored animation
 
 ###### NOTES
 - AI designed to be helpful, not accurate
 - No self-awareness of knowledge limits
 - Confidence doesn't equal correctness
+- NEW: DeepSeek R1 system prompt failures documented in May 2025
+- Instructions need to go in user messages instead of system prompts
+- Different models have different instruction-following capabilities
 
 ###### ACTIVITY
-"Make AI Admit Ignorance":
+"Make AI Admit Ignorance & Follow Instructions":
 1. Create increasingly obscure questions
 2. See if AI ever says "I don't know"
-3. Document confident wrong answers
-4. Discuss why this design choice was made
+3. NEW: Test if AI follows specific formatting instructions
+4. Document confident wrong answers AND instruction failures
+5. Compare different models' instruction-following abilities
 
 ---
 
@@ -160,25 +170,32 @@ Here's a huge problem – AI almost never admits when it doesn't know something.
 ### [seq:070] When AI Misses the Point
 
 ###### SCRIPT
-AI often misses context that humans understand instantly. Ask it about "running" and it might not know if you mean exercise, managing something, or a nose that's running! It might give medical advice when you're asking about a video game character, or treat fiction as fact. Without understanding context, AI can give dangerously wrong answers!
+AI often misses context that humans understand instantly. Ask it about "running" and it might not know if you mean exercise, managing something, or a nose that's running! But here's something really concerning: AI performs differently based on what language you use! Recent tests show that DeepSeek R1 gives worse answers when forced to "think" in Russian or Finnish compared to English. This creates unfair advantages for English speakers and shows how AI can be accidentally biased against other languages and cultures!
 
 ###### VISUAL
 - Same word, different contexts examples
 - AI mixing up fictional and real contexts
+- NEW: Language performance comparison chart
 - Conversation going off the rails
 - Context clues AI misses
+- Global language bias illustration
 
 ###### NOTES
 - Humans use tons of context AI can't access
 - Sarcasm, humor, and metaphors confuse AI
 - Cultural context often completely missed
+- NEW: Multilingual reasoning performance varies significantly
+- Chain-of-thought length correlates with answer quality regardless of language
+- English-first training creates systematic disadvantages
 
 ###### DEMONSTRATION
-"Context Chaos":
+"Context Chaos Enhanced":
 1. Give AI ambiguous prompts
 2. Watch it guess wrong context
 3. Try sarcasm and metaphors
-4. See how responses miss the mark
+4. NEW: Test same question in different languages
+5. Compare answer quality across languages
+6. Discuss fairness implications
 
 ---
 
@@ -256,16 +273,47 @@ Your mission this week: Become an error hunter! Find different types of AI error
 
 ### Homework Assignment:
 1. Collect 5 different types of AI errors
-2. Categorize each error type
+2. NEW: Check if the AI model you're using is actually what it claims to be
 3. Test error prevention strategies
-4. Create an "Error Alert" poster
-5. Bonus: Find an error that could have real consequences
+4. Create an "Error Alert" poster including model naming warnings
+5. NEW: Test the same question in different languages (if you speak any)
+6. Bonus: Find an error that could have real consequences
+7. Bonus: Document system prompt failures or instruction-following problems
 
 ### Resources:
 - Fact-checking websites list
 - Deepfake detection tools
 - AI error examples database
 - Academic integrity guidelines
+
+---
+
+## ARCHIVE
+
+###### ARCHIVE
+
+**UPDATED 2025-06-02:** Enhanced with model naming confusion and system prompt failures
+
+**Rationale:** Added critical new error types emerging in 2025: model naming confusion (Ollama mislabeling models) and system prompt failures (DeepSeek R1 ignoring instructions). Also included multilingual reasoning bias where AI performs worse in non-English languages. These represent current, real-world errors students encounter.
+
+**Updated Content:**
+- Enhanced section [seq:020] with Ollama model naming issues
+- Updated section [seq:060] with DeepSeek R1 system prompt failures
+- Enhanced section [seq:070] with multilingual reasoning bias
+- Added instruction-following testing to homework
+- Updated error categories to include modern failure modes
+
+**New Error Types Added:**
+- Model naming confusion: Tools calling different models than claimed
+- System prompt failures: AI ignoring behind-the-scenes instructions
+- Multilingual bias: Worse performance in non-English languages
+- Instruction-following inconsistencies across models
+
+**Educational Value:**
+- Teaches students to verify what AI they're actually using
+- Highlights importance of clear instruction-giving
+- Raises awareness of language bias in AI systems
+- Connects to real 2025 community discussions about model transparency
 
 ---
 
