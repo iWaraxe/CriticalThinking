@@ -132,25 +132,34 @@ Deep thinking questions:
 ### [seq:060] No AI is Immune
 
 ###### SCRIPT
-Bias isn't just in one type of AI – it's everywhere! Chatbots might give different advice based on names that hint at gender or ethnicity. Image generators might default to stereotypes. Music recommendations might assume your preferences based on age. Even homework help AI might explain things differently based on perceived identity. No AI is immune!
+Bias isn't just in one type of AI – it's everywhere! Chatbots might give different advice based on names that hint at gender or ethnicity. Image generators might default to stereotypes. Music recommendations might assume your preferences based on age. Even homework help AI might explain things differently based on perceived identity. Here's a shocking recent discovery: even advanced reasoning AI like DeepSeek-R1-0528 performs worse when forced to "think" in non-English languages, with Russian and Finnish users getting less accurate answers! No AI is immune!
 
 ###### VISUAL
 - Grid of different AI types with bias examples
 - Chatbots, image tools, music AI, educational AI
+- NEW: Language bias example showing accuracy drop
 - Bias manifestation in each type
 - "Bias is everywhere" central message
 
 ###### NOTES
 - Each AI type has unique bias risks
 - Seemingly neutral tools can discriminate
-- Importance of testing across AI platforms
+- Language bias: Recent findings show DeepSeek R1's reasoning degrades in non-English languages
+- English-centric training creates performance gaps for global users
+- Importance of testing across AI platforms AND languages
 
 ###### DEMONSTRATION
-Cross-platform bias hunt:
+Multi-dimensional bias hunt:
 1. Same prompt to different AI tools
 2. Change names/contexts suggesting identity
-3. Document different responses
-4. Find patterns across platforms
+3. NEW: Test same reasoning problem in English vs native language
+4. Document different responses and accuracy
+5. Find patterns across platforms AND languages
+
+**Language Bias Test (NEW 2025):**
+- Ask DeepSeek R1 to solve math problem in English, then same problem in student's native language
+- Compare accuracy and reasoning quality
+- Discuss: Why might English training create unfair advantages?
 
 ---
 
@@ -265,6 +274,28 @@ Your mission: Become bias detectives in your daily AI use! Document bias example
 - Safe testing guidelines
 - Real-world bias case studies
 - Organizations fighting AI bias
+
+---
+
+## ARCHIVE
+
+###### ARCHIVE
+
+**UPDATED 2025-06-02:** Enhanced with language bias examples from DeepSeek-R1-0528
+
+**Rationale:** Added current example of language bias affecting AI reasoning capabilities. Recent research shows DeepSeek R1's performance degrades when forced to think in non-English languages, with Russian and Finnish users experiencing lower accuracy. This provides a concrete, current example of bias that students can test themselves, making the abstract concept of AI bias more tangible and immediately relevant.
+
+**Updated Content:**
+- Enhanced section [seq:060] with DeepSeek-R1-0528 language bias findings
+- Added language bias to VISUAL and NOTES sections
+- Expanded DEMONSTRATION to include practical language bias testing
+- Added current (2025) research findings on reasoning degradation
+
+**Educational Value:**
+- Connects bias detection to students' multilingual experiences
+- Provides testable example students can verify themselves
+- Shows bias affects even most advanced reasoning models
+- Highlights global equity issues in AI development
 
 ---
 

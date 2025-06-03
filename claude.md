@@ -7,9 +7,11 @@
    - One `###### SCRIPT` section
    - One `###### VISUAL` section  
    - One `###### NOTES` section
+   - One `###### LINKS` section (optional)
    - One `###### DEMONSTRATION` section (optional)
    - One `###### ACTIVITY` section (optional)
    - One `###### REFLECTION` section (optional)
+   - One `###### ARCHIVE` section (optional)
 
 2. **Slide boundaries are marked by:**
    - Next slide header (`##### [seq:XXX]`)
@@ -25,19 +27,23 @@
 ###### SCRIPT
 ###### VISUAL
 ###### NOTES
+###### LINKS (optional)
 ###### DEMONSTRATION (optional)
 ###### ACTIVITY (optional)
 ###### REFLECTION (optional)
+###### ARCHIVE (optional)
 ---
 ```
 
 ### Slide Structure Components
 - **SCRIPT**: Conversational narrative (1-2 minutes speaking time)
 - **VISUAL**: Slide design description with engagement elements
-- **NOTES**: Discussion prompts, fun facts, real-world connections
+- **NOTES**: Discussion prompts, fun facts, real-world connections (text only)
+- **LINKS**: Relevant URLs and references from source materials
 - **DEMONSTRATION**: Interactive AI experiments with expected outcomes
-- **ACTIVITY** (new optional): Hands-on student exercises or games
-- **REFLECTION** (new optional): Critical thinking questions for deeper analysis
+- **ACTIVITY**: Hands-on student exercises or games
+- **REFLECTION**: Critical thinking questions for deeper analysis
+- **ARCHIVE**: Removed content with deletion rationale and date
 
 ## Course Creation Workflow
 
@@ -95,13 +101,19 @@ For each slide, develop content in this order:
    - Interactive elements
    - Color/style suggestions
 
-3. **NOTES** - Add enrichment
+3. **NOTES** - Add enrichment (text only)
    - Fun facts
    - Discussion starters
-   - Links to resources
    - Common misconceptions
+   - Real-world connections
 
-4. **DEMONSTRATION** - Create AI interactions
+4. **LINKS** - Reference materials
+   - URLs from source materials
+   - Relevant articles and studies
+   - Tool documentation
+   - Additional resources
+
+5. **DEMONSTRATION** - Create AI interactions
    - Specific prompts to try
    - Expected vs actual results
    - What to observe
@@ -425,27 +437,180 @@ Primary tools for demonstrations:
 4. **Fact-Check Races**: Verify information
 5. **Role-Play Scenarios**: Act out AI dilemmas
 
-## Update Workflow (Future)
+## Course Update Workflow - Keeping Content Current
 
-### 1. Identify Update Location
-Map new content to existing structure:
-- New AI models → Lecture 2 (How AI Works)
-- Bias examples → Lecture 3 (Bias Detection)
-- Ethics cases → Lecture 6 (Ethics Arena)
-- New tools → Relevant demonstration sections
+### Overview
+This workflow ensures the course stays relevant with the latest AI developments while maintaining quality and preventing content bloat. Updates should be strategic, replacing outdated content rather than just adding new material.
 
-### 2. Integration Strategy
-- Enhance existing sections, don't duplicate
-- Add to NOTES for minor updates
-- Revise SCRIPT for major changes
-- Update DEMONSTRATION with new examples
+### 1. Receiving Update Materials
+When user provides new AI developments:
+- News articles and press releases
+- YouTube video transcripts
+- Research papers and studies
+- Product announcements
+- Ethical controversies or incidents
+- New AI tools or capabilities
 
-### 3. Version Control
+### 2. Version Control Process
 ```bash
-git checkout -b update/description
-# Make changes
-git commit -m "Update: Add new AI capability to Lecture X"
+# Create feature branch for updates
+git checkout -b update/ai-news-YYYY-MM-DD
+
+# Work on updates
+# Commit changes with descriptive messages
+git add -A
+git commit -m "Update: [Brief description of changes]"
+
+# Push branch for review
+git push -u origin update/ai-news-YYYY-MM-DD
 ```
+
+### 3. Content Analysis Strategy
+
+#### Step 1: Categorize New Information
+Analyze incoming materials and categorize by:
+- **Technology Updates**: New models, capabilities, tools
+- **Bias/Ethics Cases**: New examples of AI bias or ethical dilemmas
+- **Failures/Errors**: Recent AI mistakes or limitations
+- **Success Stories**: Positive AI applications
+- **Regulatory Changes**: New laws or guidelines
+- **Cultural Shifts**: Changes in how society views/uses AI
+
+#### Step 2: Map to Existing Content
+Identify where updates belong:
+- New AI models → Lecture 2 (How AI Thinks)
+- Bias examples → Lecture 3 (Bias Detectives)
+- Error cases → Lecture 4 (Error Alert!)
+- Ethical dilemmas → Lecture 6 (AI Ethics Arena)
+- Creative tools → Lecture 7 (AI Creative Lab)
+- Future trends → Lecture 8 (Future Showcase)
+
+#### Step 3: Evaluate Current Content
+For each affected section:
+1. **Identify outdated content**
+   - Old AI models no longer relevant
+   - Resolved controversies
+   - Superseded technologies
+   - Outdated statistics or claims
+
+2. **Assess content balance**
+   - Is this section getting too long?
+   - Are examples still diverse and engaging?
+   - Does it maintain age-appropriate complexity?
+
+### 4. Update Implementation Guidelines
+
+#### Content Replacement Strategy
+**DO:**
+- Replace outdated examples with new ones
+- Update statistics and facts
+- Refresh pop culture references
+- Modernize demonstrations
+- Streamline verbose sections
+- Move removed content to ARCHIVE section
+- Add URLs to LINKS section
+- Keep NOTES text-only
+
+**DON'T:**
+- Just append new content to existing
+- Delete information permanently (use ARCHIVE)
+- Let any lecture exceed 60 minutes
+- Add complexity beyond age level
+- Create new sections without removing old
+- Put links in NOTES (use LINKS section)
+
+#### Update Priorities
+1. **High Priority** (Update immediately):
+   - Factual errors or outdated information
+   - Broken demonstrations
+   - Deprecated AI tools
+   - Resolved controversies presented as current
+
+2. **Medium Priority** (Update within month):
+   - Better examples available
+   - More relevant local references
+   - Improved demonstrations
+   - Clearer explanations
+
+3. **Low Priority** (Consider in quarterly review):
+   - Minor terminology changes
+   - Aesthetic improvements
+   - Additional resources
+
+### 5. Practical Update Examples
+
+#### Example 1: New AI Model Released
+**Material**: "GPT-5 released with video understanding"
+**Action**: 
+- Update Lecture 2, slide [seq:040] "How AI Models Work"
+- Replace GPT-3 examples with GPT-5
+- Add video understanding to capabilities
+- Move GPT-3 content to ARCHIVE with rationale
+- Add source URL to LINKS section
+
+#### Example 2: Major AI Bias Incident
+**Material**: "AI hiring tool discriminates against women"
+**Action**:
+- Update Lecture 3, slide [seq:060] "Real-World Bias"
+- Replace older example with this current one
+- Update DEMONSTRATION with new bias detection exercise
+- Move old example to ARCHIVE with explanation
+- Add article URL to LINKS section
+
+#### Example 3: New Creative AI Tool
+**Material**: "Sora creates realistic videos from text"
+**Action**:
+- Update Lecture 7 demonstrations
+- Replace older video tool example
+- Add new creative activity using Sora
+- Archive old tool information with deprecation note
+- Add Sora documentation link to LINKS section
+
+### 6. Quality Assurance Checklist
+
+Before finalizing updates:
+- [ ] Each lecture still fits 60-minute timeframe
+- [ ] Examples are balanced (not all negative/positive)
+- [ ] Content remains age-appropriate
+- [ ] Local cultural references still relevant
+- [ ] Demonstrations tested and working
+- [ ] No redundant information across lectures
+- [ ] Clear improvement over previous version
+- [ ] All languages updated consistently
+
+### 7. Update Documentation
+
+After updates, document changes:
+```markdown
+## Update Log: YYYY-MM-DD
+
+### Materials Reviewed:
+- [List of articles/sources provided]
+
+### Changes Made:
+- Lecture 2: Updated AI model examples (seq:040, seq:050)
+- Lecture 3: Replaced bias case study (seq:060)
+- Lecture 7: New creative tool demonstration
+
+### Content Removed:
+- Outdated GPT-3 examples
+- 2022 bias incident (resolved)
+- Deprecated tool references
+
+### Rationale:
+[Brief explanation of why these changes improve the course]
+```
+
+### 8. Language Version Management
+**IMPORTANT**: Updates are made ONLY to English version. Other language versions are updated separately when course delivery is ordered for specific countries.
+
+Process:
+1. All updates go to English lectures only
+2. Document which slides/sections were updated
+3. When course is ordered for specific country:
+   - User will manually transfer changes to target language
+   - Apply cultural localization during transfer
+   - Ensure demonstrations work in target region
 
 ## Lecture Development Checklist
 
@@ -455,8 +620,10 @@ For each lecture:
 - [ ] All slides have seq numbers
 - [ ] Each slide has SCRIPT section
 - [ ] Each slide has VISUAL section
-- [ ] Each slide has NOTES section
+- [ ] Each slide has NOTES section (text only)
+- [ ] LINKS section added where relevant
 - [ ] Key slides have DEMONSTRATION
+- [ ] ARCHIVE section used for removed content
 - [ ] Activities distributed throughout
 - [ ] Homework assignment included
 - [ ] Resources listed at end
